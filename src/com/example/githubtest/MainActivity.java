@@ -16,7 +16,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		tv = (TextView) findViewById(R.id.tv_hello);
 		tv.setText("hello kitty");
+		tv.getText();
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
